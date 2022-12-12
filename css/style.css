@@ -1,0 +1,13 @@
+/* Mobile Styles */
+.countdown-page-container {
+    position: relative;
+}
+.countdown-page-container .logo-container {
+    display: flex;
+    justify-content: center;
+}
+/* END Mobile Styles */
+
+/* Desktop Styles */
+
+/* END Desktop Styles */
