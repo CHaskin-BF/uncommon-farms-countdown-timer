@@ -1,10 +1,31 @@
 /* Mobile Styles */
+.body {
+    background-image: url("https://www.pccmarkets.com/wp-content/uploads/2018/02/farm-landscape-with-barn-1600.jpg");
+}
 .countdown-page-container {
     position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://www.pccmarkets.com/wp-content/uploads/2018/02/farm-landscape-with-barn-1600.jpg");
 }
 .countdown-page-container .logo-container {
     display: flex;
     justify-content: center;
+}
+.countdown-page-container .countdown-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.countdown-page-container .countdown-container li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+}
+.countdown-page-container .countdown-container li span {
+    display: block;
+    font-size: 4.5rem;
 }
 /* END Mobile Styles */
 
